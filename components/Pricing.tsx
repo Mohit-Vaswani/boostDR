@@ -14,7 +14,7 @@ const PricingCard = () => {
         <p className="text-center text-4xl font-bold text-black">$19</p>
         </span>
         <Link href={`https://boostdr.xyz`} className="custom-button text-lg">Get Instant Access</Link>
-        <div className="mt-6 bg-yellow-200 p-2 sm:p-4 rounded-lg border-2 border-black">
+        <div className="mt-6 bg-yellow-200 p-2 sm:p-4 rounded-lg border-2 border-black w-full">
           <h4 className="font-semibold mb-2">What&apos;s Included:</h4>
           <ul className="space-y-2">
             {[
