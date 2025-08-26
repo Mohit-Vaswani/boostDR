@@ -28,17 +28,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Script
-          src="https://scripts.simpleanalyticscdn.com/latest.js"
-          strategy="afterInteractive"
-        />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
         <Analytics />
+        <Script
+          src="https://datafa.st/js/script.js"
+          data-website-id="68adfcff611d19f5d9d5c8f0"
+          data-domain="boostdr.xyz"
+          strategy="afterInteractive" // or "lazyOnload"
+        />
       </body>
       <GoogleAnalytics gaId="G-6QZPSFC0Q4" />
     </html>
