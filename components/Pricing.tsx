@@ -21,6 +21,7 @@ const PricingCard = () => {
               "200+ High DR Directories",
               "AI & SaaS Specific Listings",
               "Growth & SEO Boost",
+              "Submission Links",
               "Website Links",
               "Future Updates",
               "Lifetime Access",
